@@ -7,13 +7,17 @@ export default function About() {
         <div className="card-surface">
           <h3 className="text-2xl font-semibold text-violet-700 dark:text-violet-300">About Me</h3>
           <p className="mt-4" style={{ color: 'var(--text)' }}>
-            I am a detail-oriented and adaptable software engineer with a strong foundation in software development principles and 4 years of hands-on experience. I specialize in React, Node.js, MySQL and enjoy improving application performance and user experience.
-          </p>
-          <ul className="mt-4 space-y-2" style={{ color: 'var(--text)' }}>
+            I am a detail-oriented and solution-driven Software Engineer with 4+ years of hands-on experience
+ building scalable and responsive applications using HTML, CSS, JavaScript, React JS, and MySQL.
+ Proven track record of designing and deploying custom software solutions. Adept at collaborating
+ with cross-functional teams, translating business requirements into intuitive interfaces, and
+ ensuring seamless user experiences. Strong expertise in debugging, optimization, and full-cycle
+ application development. A proactive problem-solving mindset, and the ability to thrive in fast-paced environments while consistently meeting project deadlines.</p>
+          {/* <ul className="mt-4 space-y-2" style={{ color: 'var(--text)' }}>
             <li>• Strong problem-solving and debugging skills</li>
             <li>• Experience in end-to-end deployment and support</li>
             <li>• Comfortable with Git, AWS and modern web tooling</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

@@ -37,19 +37,19 @@ export default function Header() {
 
   return (
   <header className="w-full sticky top-0 z-30 bg-white/80 dark:bg-black/40 backdrop-blur-md">
-      <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-4xl mx-auto py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
             <h1 style={{padding: '8px 14px', background: '#602dff', color: 'white', fontWeight: 'bold', borderRadius: '10px'}}>R</h1>
           <div>
             <h1 className="text-violet-700 dark:text-violet-300 font-semibold">Rajabalan M</h1>
-            <p className="text-xs text-gray-500 dark:text-muted">Fullstack Engineer</p>
+            <p className="text-xs text-gray-500 dark:text-muted">Software Engineer</p>
           </div>
         </div>
         <nav className="hidden md:flex gap-6 text-sm text-gray-700 dark:text-gray-200 items-center">
           <a href="#home" className="hover:text-violet-600 dark:hover:text-violet-200">Home</a>
           <a href="#about" className="hover:text-violet-600 dark:hover:text-violet-200">About</a>
           <a href="#skills" className="hover:text-violet-600 dark:hover:text-violet-200">Skills</a>
-          <a href="#projects" className="hover:text-violet-600 dark:hover:text-violet-200">Projects</a>
+          <a href="#projects" className="hover:text-violet-600 dark:hover:text-violet-200">Work Experince</a>
           <a href="#contact" className="btn-outline px-4 py-2 rounded-md border border-violet-300 dark:border-violet-700 text-violet-700 dark:text-violet-200 hover:bg-violet-50 dark:hover:bg-transparent">Contact</a>
           <button
             onClick={toggleTheme}

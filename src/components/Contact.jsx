@@ -6,9 +6,9 @@ export default function Contact() {
       <div className="container">
         <h3 className="text-2xl font-semibold text-violet-700">Contact me</h3>
 
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-1 gap-6">
+        <div className="mt-6">
           <div className="card-surface">
-            <div className="mt-2 contact-links">
+            <div className="contact-links">
               <a className="contact-link" href="mailto:rajabalan6300@gmail.com">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 <span className="ml-2">rajabalan6300@gmail.com</span>
@@ -29,8 +29,6 @@ export default function Contact() {
                 <span className="ml-2">LinkedIn</span>
               </a>
             </div>
-
-            <p className="mt-4 subtle">I usually respond within 2 business days.</p>
           </div>
         </div>
       </div>

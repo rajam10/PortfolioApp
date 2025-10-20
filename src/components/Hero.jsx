@@ -8,14 +8,16 @@ export default function Hero() {
           <div>
             <h2 className="heading-lg md:text-[3rem] leading-tight">Hi, I'm Rajabalan</h2>
             <h4 className="mt-4 heading-lg md:text-[2rem] leading-tight">Software Engineer</h4>
-            <p className="mt-4 subtle max-w-2xl mx-auto">Detail-oriented engineer with 4 years of experience building responsive and scalable web applications using React, Node.js and MySQL. I love turning requirements into polished products that users enjoy.</p>
+            <p className="mt-4 subtle max-w-2xl mx-auto">Take a look around, and feel free to reach out if you’d like to collaborate!</p>
+            <a href="../src/assets/Rajabalan_M_Resume.pdf" target='_blank' className="mt-5 btn btn-primary">Download CV</a>
+
           </div>
           <div className="avatar">
             <img src="/src/assets/Rajabalan.jpg" alt="Rajabalan profile" />
           </div>
         </div>
         <div className="mt-8 hero-cta justify-center">
-          <a href="#projects" className="btn btn-primary">View Projects</a>
+          <a href="#projects" className="btn btn-primary">View Work Experience</a>
           <a href="#contact" className="btn btn-ghost">Get in touch</a>
         </div>
       </div>

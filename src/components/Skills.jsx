@@ -4,17 +4,17 @@ const CATEGORIES = [
   { id: 'frontend', label: 'Frontend' },
   { id: 'backend', label: 'Backend' },
   { id: 'database', label: 'Database' },
-  { id: 'tools', label: 'Tools' },
   { id: 'cloud', label: 'Cloud & DevOps' },
+  { id: 'tools', label: 'Tools' },
 ]
 
 // Placeholder mapping. The user said they'll add actual lists later.
 const PLACEHOLDER = {
-  frontend: [],
-  backend: [],
-  database: [],
-  tools: [],
-  cloud: [],
+  frontend: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Redux', 'jQuery', 'Ajax'],
+  backend: ['Node JS', 'Express JS'],
+  database: ['MySQL', 'MongoDB'],
+  tools: ['MySQL Workbench', 'Freshdesk', 'Jira', 'Postman'],
+  cloud: ['AWS', 'Git'],
 }
 
 export default function Skills() {
@@ -27,7 +27,6 @@ export default function Skills() {
       <div className="container">
         <div className="flex items-center justify-between">
           <h3 className="text-2xl font-semibold text-violet-700">Skills</h3>
-          <p className="subtle">Click a category to view the related skillset</p>
         </div>
 
         <div className="mt-6 skills-layout card-surface" style={{ color: 'var(--text)' }}>
