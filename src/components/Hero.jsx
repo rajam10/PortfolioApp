@@ -1,4 +1,5 @@
 import React from 'react'
+const drive_url = import.meta.env.VITE_DRIVE_URL;
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
             <h2 className="heading-lg md:text-[3rem] leading-tight">Hi, I'm Rajabalan</h2>
             <h4 className="mt-4 heading-lg md:text-[2rem] leading-tight">Software Engineer</h4>
             <p className="mt-4 subtle max-w-2xl mx-auto">Take a look around, and feel free to reach out if you’d like to collaborate!</p>
-            <a href="https://drive.google.com/drive/folders/1ue3s0exOwuqYVHpEj-eABWHeUncQR_lZ?usp=drive_link" target='_blank' className="mt-5 btn btn-primary">Download CV</a>
+            <a href={drive_url} target='_blank' className="mt-5 btn btn-primary">Download CV</a>
 
           </div>
           <div className="avatar">
