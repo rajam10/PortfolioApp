@@ -13,11 +13,6 @@ export default function About() {
  with cross-functional teams, translating business requirements into intuitive interfaces, and
  ensuring seamless user experiences. Strong expertise in debugging, optimization, and full-cycle
  application development. A proactive problem-solving mindset, and the ability to thrive in fast-paced environments while consistently meeting project deadlines.</p>
-          {/* <ul className="mt-4 space-y-2" style={{ color: 'var(--text)' }}>
-            <li>• Strong problem-solving and debugging skills</li>
-            <li>• Experience in end-to-end deployment and support</li>
-            <li>• Comfortable with Git, AWS and modern web tooling</li>
-          </ul> */}
         </div>
       </div>
     </section>

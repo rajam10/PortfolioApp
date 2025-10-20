@@ -22,31 +22,10 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-                {/* <div className="flex items-center gap-2">
-                  <button className="btn btn-ghost" onClick={() => setOpenExp(exp.id)}>Projects</button>
-                </div> */}
               </div>
             </article>
           ))}
         </div>
-
-        {/* {experiences.map(exp => (
-          <Modal key={exp.id} open={openExp === exp.id} onClose={() => setOpenExp(null)} title={`${exp.company} — Projects`}>
-            <div className="space-y-4">
-              {exp.projects.map(p => (
-                <div key={p.id} className="card-surface">
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <h4 className="text-md font-semibold">{p.title}</h4>
-                      <p className="text-sm subtle mt-1">{p.description}</p>
-                    </div>
-                    <div className="text-sm muted">{p.tech.join(' • ')}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Modal>
-        ))} */}
       </div>
     </section>
   )

@@ -10,14 +10,12 @@ export default function Header() {
   });
 
   useEffect(() => {
-    // Initialize theme on mount
     const root = document.documentElement
     const stored = theme
     if (stored) {
       if (stored === 'dark') root.classList.add('dark')
       else root.classList.remove('dark')
     } else {
-      // follow system preference when not set
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
       if (prefersDark) root.classList.add('dark')
       else root.classList.remove('dark')
@@ -30,7 +28,6 @@ export default function Header() {
       setTheme(next)
       localStorage.setItem('theme', next)
     } catch (e) {
-      // ignore storage errors
       setTheme(prev => (prev === 'dark' ? 'light' : 'dark'))
     }
   }

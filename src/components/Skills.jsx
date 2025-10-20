@@ -7,8 +7,6 @@ const CATEGORIES = [
   { id: 'cloud', label: 'Cloud & DevOps' },
   { id: 'tools', label: 'Tools' },
 ]
-
-// Placeholder mapping. The user said they'll add actual lists later.
 const PLACEHOLDER = {
   frontend: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Redux', 'jQuery', 'Ajax'],
   backend: ['Node JS', 'Express JS'],
