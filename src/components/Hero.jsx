@@ -9,11 +9,11 @@ export default function Hero() {
             <h2 className="heading-lg md:text-[3rem] leading-tight">Hi, I'm Rajabalan</h2>
             <h4 className="mt-4 heading-lg md:text-[2rem] leading-tight">Software Engineer</h4>
             <p className="mt-4 subtle max-w-2xl mx-auto">Take a look around, and feel free to reach out if you’d like to collaborate!</p>
-            <a href="../public/assets/Rajabalan_M_Resume.pdf" target='_blank' className="mt-5 btn btn-primary">Download CV</a>
+            <a href="../assets/Rajabalan_M_Resume.pdf" target='_blank' className="mt-5 btn btn-primary">Download CV</a>
 
           </div>
           <div className="avatar">
-            <img src="../public/assets/Rajabalan.jpg" alt="Rajabalan profile" />
+            <img src="../assets/Rajabalan.jpg" alt="Rajabalan profile" />
           </div>
         </div>
         <div className="mt-8 hero-cta justify-center">
